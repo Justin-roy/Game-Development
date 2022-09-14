@@ -22,7 +22,7 @@ Hello1 -- no Space
 
 print(example1,example2,example3,example4)
 print(example5)
--- other use like this to get length of the string
+-- we can use like this to get length of the string
 local str = #"Justin"
 print(str)
 print('To Get Length of the String: '..#example4) -- # use for getting length of the string
