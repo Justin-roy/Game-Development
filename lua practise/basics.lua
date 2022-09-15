@@ -42,3 +42,20 @@ print(type(data1),type(data2))
 
 -- Some useful method
 print("Hello\nWorld\tI am\valmost 16\\22 \"years\"") -- '\v' means vertical line '\\'--> gives \ and '\"\"' --> ""
+
+-- Strings
+local abc = "Justin Roy"
+print(string.lower(abc)) -- lower case
+print(string.upper(abc)) -- upper case
+print(string.len(abc)) -- length 
+print(#abc) -- length
+
+-- Maths
+local abn = math.pi 
+print(abn)
+print(math.min(5,10,2,0,12))
+print(math.max(5,10,2,0,12))
+print(math.ceil(5.012))
+print(math.floor(5.012))
+print(math.random(10)) -- 0 to 9
+print(math.random(10,20)) -- 10 to 20
